@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import os
 from tqdm import tqdm
 from IPython import display
-from LogoDCGAN.images import load_images, generate_and_save_images, show
+from LogoDCGAN.utils import load_images, generate_and_save_images, show
 
 # downscale the images
 IMAGE_DIM = 64
